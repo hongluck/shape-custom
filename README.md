@@ -7,34 +7,34 @@ https://www.youtube.com/watch?v=udR6SwojYXo&list=PLhA3b2k8R3t3zhbjDmqHudUTZqvRdE
 
 ##(1). Setup conda in Ubuntu 16.04 env with ROS (need extra steps)
 
-##1. installing conda
-##download .sh file from homepage  
+###1. installing conda
+###download .sh file from homepage  
 https://www.anaconda.com/products/individual#linux
 '''
 cd ~/Downloads  
-
-##bash <filename of the downloaded source>
-##for me it was 
+'''
+###bash <filename of the downloaded source>
+###for me it was 
 bash Anaconda3-5.0.1-Linux-x86_64.sh
 
-##1-1. (Only for ros users)After installation go to your home directory
-##This step is done due to the fact that conda interupts the python2.7 environment for ROS
+###1-1. (Only for ros users)After installation go to your home directory
+###This step is done due to the fact that conda interupts the python2.7 environment for ROS
 
-####gedit ~/.bashrc
-##comment out Anaconda related python settings when using ROS
-##http://wiki.ros.org/IDEs#Anaconda
-##in my case when using Anaconda, uncomment all the lines. 
-##Because my installation had issues in conda init
+gedit ~/.bashrc
+###comment out Anaconda related python settings when using ROS
+###http://wiki.ros.org/IDEs#Anaconda
+###in my case when using Anaconda, uncomment all the lines. 
+###Because my installation had issues in conda init
 
-##2. install the package from github
-##https://github.com/seth814/Semantic-Shapes
-##when installing in desktop
-
+###2. install the package from github
+###https://github.com/seth814/Semantic-Shapes
+###when installing in desktop
+'''
 cd
 cd Desktop
 mkdir shape-custom
 git clone https://github.com/seth814/Semantic-Shapes
-
+'''
 ##3. activate conda env with py37 and install packages
 
 conda create -n shape-custom python=3.7
