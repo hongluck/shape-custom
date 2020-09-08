@@ -10,15 +10,16 @@ https://www.youtube.com/watch?v=udR6SwojYXo&list=PLhA3b2k8R3t3zhbjDmqHudUTZqvRdE
 ### 1. installing conda
 ### download .sh file from homepage  
 ### https://www.anaconda.com/products/individual#linux
-''' cd ~/Downloads '''   
-### bash <filename of the downloaded source>
-### for me it was 
-'''bash Anaconda3-5.0.1-Linux-x86_64.sh'''
+### ''' cd ~/Downloads '''    
+### bash <filename of the downloaded source>  
+  
+### for me it was   
+### ''' bash Anaconda3-5.0.1-Linux-x86_64.sh '''
 
 ### 1-1. (Only for ros users)After installation go to your home directory
 ### This step is done due to the fact that conda interupts the python2.7 environment for ROS
 
-gedit ~/.bashrc
+### ''' gedit ~/.bashrc'''
 ### comment out Anaconda related python settings when using ROS
 ### http://wiki.ros.org/IDEs#Anaconda
 ### in my case when using Anaconda, uncomment all the lines. 
