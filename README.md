@@ -11,7 +11,8 @@ https://www.youtube.com/watch?v=udR6SwojYXo&list=PLhA3b2k8R3t3zhbjDmqHudUTZqvRdE
 download .sh file from homepage
 https://www.anaconda.com/products/individual#linux
 
-'cd ~/Downloads'
+'''cd ~/Downloads'''
+
 bash <filename of the downloaded source>
 for me it was 
 bash Anaconda3-5.0.1-Linux-x86_64.sh
