@@ -48,7 +48,7 @@ sudo easy_install3 pip
 sudo pip3 install pygame
 ```
 
-pip install git+https://github.com/lucasb-eyer/pydensecrf.git
+```pip install git+https://github.com/lucasb-eyer/pydensecrf.git```
 
 ## 5. All installations done. It depends on your environment but when opencv is linked to python 2.7 dist
 ## you should run 
